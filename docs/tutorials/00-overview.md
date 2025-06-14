@@ -2,6 +2,17 @@
 
 Build a complete action RPG from scratch using Heaps. Each tutorial adds new features to create a fully playable game.
 
+**[Play the game online!](https://bginbey.github.io/actionRPG/)**
+
+### Game Controls
+- **Movement**: WASD or Arrow Keys
+- **Attack**: J or X (3-hit combo system)
+- **Dash**: Space or Shift
+- **Toggle Rain**: R
+- **Show/Hide Help**: H
+- **Debug View**: ` (backtick)
+- **Return to Menu**: ESC
+
 ## What This Series Builds
 
 ```
