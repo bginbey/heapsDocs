@@ -1,0 +1,15 @@
+/* Make logo adapt to theme */
+/* In dark mode (slate), logo should be light */
+[data-md-color-scheme="slate"] .theme-adaptive-logo {
+    color: #ffffff;
+}
+
+/* In light mode (default), logo should be dark */
+[data-md-color-scheme="default"] .theme-adaptive-logo {
+    color: #000000;
+}
+
+/* Default fallback */
+.theme-adaptive-logo {
+    color: var(--md-default-fg-color);
+}

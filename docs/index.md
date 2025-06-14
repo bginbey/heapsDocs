@@ -1,7 +1,7 @@
 # Heaps Game Engine Guide
 
 <div align="center">
-  <img src="assets/logo.svg" alt="Heaps Logo" width="200" style="margin: 2rem 0;">
+  <img src="assets/logo.svg" alt="Heaps Logo" width="200" style="margin: 2rem 0;" class="theme-adaptive-logo">
 </div>
 
 Welcome to the comprehensive guide for **Heaps.io** - a mature, cross-platform graphics engine designed for high-performance games.

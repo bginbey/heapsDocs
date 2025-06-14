@@ -99,4 +99,7 @@ extra:
     provider: google
     property: G-XXXXXXXXXX
 
+extra_css:
+  - stylesheets/extra.css
+
 copyright: Copyright &copy; 2025 Heaps Documentation - Built with MkDocs
