@@ -59,9 +59,8 @@ Throughout this guide, you'll build a fully-featured action RPG with:
 
 ## Community
 
+- [Heaps Website](https://heaps.io)
 - [GitHub Repository](https://github.com/HeapsIO/heaps)
-- [Discord Server](https://discord.gg/heaps)
-- [Heaps Forum](https://community.heaps.io)
 - [Showcase](https://heaps.io/showcase)
 
 ## Prerequisites
