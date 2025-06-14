@@ -1,0 +1,102 @@
+site_name: Heaps Game Engine Guide
+site_description: A comprehensive guide to building games with Heaps.io
+site_author: Heaps Documentation Team
+site_url: https://bginbey.github.io/heapsDocs
+
+repo_name: heapsDocs
+repo_url: https://github.com/bginbey/heapsDocs
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+  palette:
+    - scheme: slate
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    - scheme: default
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/favicon.ico
+  logo: assets/logo.svg
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - minify:
+      minify_html: true
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Installation: getting-started/installation.md
+    - Hello World: getting-started/hello-world.md
+    - Project Structure: getting-started/project-structure.md
+  - Core Concepts:
+    - Game Loop: core-concepts/game-loop.md
+    - Scene Management: core-concepts/scenes.md
+    - Resource System: core-concepts/resources.md
+    - Entity System: core-concepts/entities.md
+    - Rendering: core-concepts/rendering.md
+  - Tutorials:
+    - Build a 2D Action RPG: tutorials/00-overview.md
+    - "1. Foundation": tutorials/01-foundation.md
+    - "2. Core Systems": tutorials/02-core-systems.md
+    - "3. Player Movement": tutorials/03-player-movement.md
+    - "4. Combat System": tutorials/04-combat-system.md
+    - "5. Enemy AI": tutorials/05-enemy-ai.md
+  - Dive Deeper:
+    - Tilemap Systems: dive-deeper/tilemap-systems.md
+  - Reference:
+    - API Cheatsheet: reference/api-cheatsheet.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/HeapsIO/heaps
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/heaps
+  analytics:
+    provider: google
+    property: G-XXXXXXXXXX
+
+copyright: Copyright &copy; 2025 Heaps Documentation - Built with MkDocs
