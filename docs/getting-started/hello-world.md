@@ -74,7 +74,7 @@ class Main extends hxd.App {
 ```
 
 !!! tip "Delta Time"
-    Always multiply movement by `dt` to ensure consistent speed regardless of framerate.
+    Multiply movement by `dt` to ensure consistent speed regardless of framerate.
 
 ## Add Input
 
